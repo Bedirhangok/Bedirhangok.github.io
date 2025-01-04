@@ -40,7 +40,7 @@
             background-color: #1a3547;
             transform: translateY(-2px);
         }
-        .content-section {
+        .icerik-bolumu {
             background-color: white;
             padding: 20px;
             border-radius: 5px;
@@ -64,23 +64,23 @@
         .image-container:hover img {
             transform: scale(1.02);
         }
-        .wildlife-grid {
+        .vahsiyasam-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
             margin: 20px 0;
         }
-        .wildlife-card {
+        .vahsiyasam-kart {
             background-color: white;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
-        .wildlife-card h3 {
+        .vahsiyasam-kart h3 {
             color: #2c5777;
             margin-top: 0;
         }
-        .stats {
+        .istatistik {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
@@ -90,11 +90,11 @@
             border-radius: 5px;
             color: white;
         }
-        .stat-item {
+        .istatistik-item {
             text-align: center;
             padding: 10px;
         }
-        .stat-number {
+        .istatistik-numara {
             font-size: 1.5em;
             font-weight: bold;
         }
@@ -105,14 +105,14 @@
             border-top: 1px solid #ddd;
             color: #666;
         }
-        .danger-level {
+        .kritik-seviye {
             display: inline-block;
             padding: 4px 8px;
             border-radius: 3px;
             font-size: 0.9em;
             margin-top: 5px;
         }
-        .critical {
+        .kritik {
             background-color: #ff4444;
             color: white;
         }
@@ -120,7 +120,7 @@
             background-color: #ffbb33;
             color: white;
         }
-        .vulnerable {
+        .hassas {
             background-color: #00C851;
             color: white;
         }
@@ -137,23 +137,23 @@
         <a href="iletisim.html">İletişim</a>
     </nav>
 
-    <div class="content-section">
+    <div class="icerik-bolumu">
         <p>Vahşi yaşam, dünya üzerindeki tüm doğal ekosistemlerde var olan çeşitli canlı türlerini kapsamaktadır. Bu muhteşem biyolojik çeşitlilik, milyonlarca yıllık evrim sürecinin bir sonucu olarak ortaya çıkmıştır. Her bir tür, bulunduğu ekosistemin dengesi için vazgeçilmez bir öneme sahiptir.</p>
         
         <p>Vahşi yaşamın korunması, sadece türlerin devamlılığı için değil, aynı zamanda ekosistemlerin sağlıklı işleyişi için de kritik öneme sahiptir. İnsan faaliyetleri sonucunda habitat kaybı, kirlilik, iklim değişikliği ve aşırı avlanma gibi tehditler, birçok türün neslinin tükenmesine neden olmaktadır.</p>
     </div>
 
-    <div class="stats">
-        <div class="stat-item">
-            <div class="stat-number">8.7M</div>
+    <div class="istatistik">
+        <div class="istatistik-item">
+            <div class="istatistik-numara">8.7M</div>
             <div>Tahmini Tür Sayısı</div>
         </div>
-        <div class="stat-item">
-            <div class="stat-number">41,000+</div>
+        <div class="istatistik-item">
+            <div class="istatistik-numara">41,000+</div>
             <div>Tehlike Altındaki Tür</div>
         </div>
-        <div class="stat-item">
-            <div class="stat-number">60%</div>
+        <div class="istatistik-item">
+            <div class="istatistik-numara">60%</div>
             <div>Yaban Hayatı Kaybı</div>
         </div>
     </div>
@@ -162,26 +162,26 @@
         <img src="foto/vahsiyasam.jpg" alt="Vahşi yaşam">
     </div>
 
-    <div class="wildlife-grid">
-        <div class="wildlife-card">
+    <div class="vahsiyasam-grid">
+        <div class="vahsiyasam-kart">
             <h3>Memeli Hayvanlar</h3>
             <p>Karada ve denizde yaşayan, yavrusunu sütle besleyen omurgalı canlılar.</p>
-            <span class="danger-level endangered">1,199 Tür Tehlikede</span>
+            <span class="kritik-seviye endangered">1,199 Tür Tehlikede</span>
         </div>
-        <div class="wildlife-card">
+        <div class="vahsiyasam-kart">
             <h3>Kuşlar</h3>
             <p>Dünya genelinde farklı habitatlarda yaşayan, uçabilen omurgalı canlılar.</p>
-            <span class="danger-level vulnerable">1,469 Tür Tehlikede</span>
+            <span class="kritik-seviye hassas">1,469 Tür Tehlikede</span>
         </div>
-        <div class="wildlife-card">
+        <div class="vahsiyasam-kart">
             <h3>Sürüngenler</h3>
-            <p>Karada ve suda yaşayabilen, yumurtlayarak çoğalan, soğukkanlı omurgalı canlılar.</p>
-            <span class="danger-level critical">925 Tür Tehlikede</span>
+            <p>Karada ve suda yaşayabilen, soğukkanlı omurgalı canlılar.</p>
+            <span class="kritik-seviye kritik">925 Tür Tehlikede</span>
         </div>
-        <div class="wildlife-card">
+        <div class="vahsiyasam-kart">
             <h3>Amfibiler</h3>
             <p>Hem suda hem karada yaşayabilen, hassas deriye sahip canlılar.</p>
-            <span class="danger-level critical">2,100 Tür Tehlikede</span>
+            <span class="kritik-seviye kritik">2,100 Tür Tehlikede</span>
         </div>
     </div>
 
